@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(to bottom, white, rgb(146, 200, 222));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Roboto, sans-serif;
+    margin: 90px;
+    padding: 20px;
+}
+
+
+h1{
+    font-size: 35px;
+    color: #1d1c6b;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 20px;
+    color: #086296;
+    margin-bottom: 8px;
+}
+
+
+p{
+    background: linear-gradient(to right, rgb(191, 230, 245), rgb(209, 239, 245));
+    font-family: Sans-serif;
+    font-size: 14px;
+    color: #4a4b4b;
+    line-height: 1.1;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #d0d0d0;
+    border-radius: 5px;
+    border-color: #d0d0d0;
+    border-length: 50%;
+    padding: 15px;
+}
+
