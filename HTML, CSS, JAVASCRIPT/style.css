@@ -1,38 +1,136 @@
 body{
-    background: linear-gradient(to bottom, white, rgb(146, 200, 222));
+    background-image: url('vivid-blurred-colorful-wallpaper-background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     font-family: Roboto, sans-serif;
-    margin: 90px;
+    margin: 150px;
     padding: 20px;
 }
 
-
-h1{
-    font-size: 35px;
-    color: #1d1c6b;
-    margin-bottom: 10px;
+.navbar {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: right; 
+  padding: 20px 10%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
-h2{
-    font-size: 20px;
-    color: #086296;
-    margin-bottom: 8px;
+.nav-links {
+  display: flex;
+  list-style: none;
 }
 
-
-p{
-    background: linear-gradient(to right, rgb(191, 230, 245), rgb(209, 239, 245));
-    font-family: Sans-serif;
-    font-size: 14px;
-    color: #4a4b4b;
-    line-height: 1.1;
-    border-style: solid;
-    border-width: 0.5px;
-    border-color: #d0d0d0;
-    border-radius: 5px;
-    border-color: #d0d0d0;
-    border-length: 50%;
-    padding: 15px;
+.nav-links li {
+  margin-left: 20px;
 }
 
+.nav-links a {
+  text-decoration: none;
+  color: #555555;
+  font-weight: 500;
+}
+
+/* ==========================================
+   3. Hero Section (Perfect Dead-Center Layout)
+   ========================================== */
+.hero-section {
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center;     /* Centers content vertically */
+  text-align: center;      /* Centers individual lines of text */
+  height: 80vh;            /* Takes up 80% of screen height */
+  background-color: #ffffff;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #007bff; /* Accent brand color */
+}
+
+.hero-content p {
+  font-size: 20px;
+  color: #666666;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 24px;
+  background-color: #222222;
+  color: #ffffff;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+/* ==========================================
+   4. Projects Section & Structural Grid Cards
+   ========================================== */
+.projects-section {
+  padding: 80px 10%;
+}
+
+.projects-section h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;       /* Lets cards drop to next line if screen is narrow */
+  gap: 30px;             /* Space between structural boxes */
+  justify-content: center;
+}
+
+.project-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  width: 320px;          /* Fixed target box width */
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02); /* Soft shadow effect */
+}
+
+.card-image {
+  background-color: #eeeeee;
+  height: 180px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  border: 1px dashed #cccccc; /* Decorative placeholder inner box */
+}
+
+.project-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 14px;
+  color: #666666;
+}
+
+/* ==========================================
+   5. Footer Styling
+   ========================================== */
+footer {
+  background-color: #111111;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 14px;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
